@@ -1,0 +1,7 @@
+
+CREATE TABLE IF NOT EXISTS bookings (
+    booking_id TEXT PRIMARY KEY,
+    doctor TEXT NOT NULL,
+    date DATE NOT NULL,
+    timing TEXT NOT NULL
+);

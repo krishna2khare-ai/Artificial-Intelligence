@@ -1,0 +1,52 @@
+{
+  "intents":[
+
+    {
+      "tag": "greetings",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello! How may I assist you today?", "Hi there! How can I help you?", "Hey! Welcome to our facility. How can I assist you?"]
+    },
+
+    {
+      "tag": "exit",
+      "patterns": ["bye", "sign out", "goodbye"],
+      "responses": ["Bye", "Have a great day", "See you later"]
+    },
+    {
+      "tag": "intro",
+      "patterns": ["Who are you","What are you","what can you do","who r u"],
+      "responses": ["I am a chatbot developed to assist you"]
+    },
+   
+      {
+        "tag": "query2",
+    "patterns": ["where is the hospital","hospital address","location", "hospital area","where is the  address"],
+    "responses": ["Ongole Ap"]
+    },
+    {
+    "tag": "medicine",
+    "patterns": ["I want to buy a medicine", "Where is the pharmacy", "Do you have this medicine"],
+    "responses": ["You could use our online delivery services"]
+     },
+
+     {
+      "tag" :"book appointment",
+      "patterns": ["book an appointment","consult a docter","make a reservation","make appointment","i want appointment",""],
+      "responses":[""]
+     },
+     {
+      "tag" : "appointment details",
+      "patterns": ["When is my appointment","appointment details","reservation info","","i want appointment",""],
+      "responses":[""]
+     },
+     
+     {
+      "tag" : "search medicine",
+      "patterns": ["I want details of a medicine","medicine details","medicine info","info of a medicine"],
+      "responses":[""]
+     }
+    
+
+  
+  ]
+}
